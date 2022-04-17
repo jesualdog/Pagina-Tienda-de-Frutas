@@ -9,7 +9,7 @@
 
 .cabecera {
     align-items: center;
-    background: #f9f9f9;
+    background: #F9F9F9;
     display: flex;
     justify-content: space-between;
     padding-left: 2rem;
@@ -65,7 +65,7 @@
 }
 
 .menu__link.activo {
-    color: #333333;
+    color: #8d0606;
     font-weight: bold;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .banner__titulo {
-    color: #fdfdfd;
+    color: #F9F9F9;
     font-family: 'Pacifico', cursive;
     position: absolute;
     left: 50%;
@@ -157,7 +157,7 @@
 
 .sobre__descripcion {
     color: #595959;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 @media screen and (min-width: 0) {
@@ -175,7 +175,7 @@
 /*Todo --- --- ---- --- Codigo para recetas --- --- --- --- */
 
 .recetas {
-    background: #e5e5e5;
+    background: #E5E5E5;
     display: flex;
     flex-wrap: wrap;
 }
@@ -199,7 +199,7 @@
 }
 
 .receta {
-    background: #fdfdfd;
+    background: #FDFDFD;
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
@@ -232,12 +232,14 @@
 
 .receta__titulo {
     font-size: 1.5rem;
+    color: #595959;
 }
 
 .receta__descripcion {
     font-size: 1.1rem;
     text-align: justify;
     margin: 0.5rem 0;
+    color: #595959;
 }
 
 .receta__contenido {
@@ -248,7 +250,7 @@
     background: #8d0606;
     border: none;
     border-radius: 5px;
-    color: #fdfdfd;
+    color: #FDFDFD;
     padding: 0.5rem;
     cursor: pointer;
     margin-top: 0.3rem;
@@ -349,7 +351,7 @@
 
 .quienes-somos {
     text-align: center;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .quienes-somos__titulo {
@@ -372,7 +374,7 @@
 
 .quienes-somos__descripcion {
     color: #595959;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 @media screen and (min-width: 0) {
@@ -391,7 +393,8 @@
 
 .pie-de-pagina {
     background: #bfbfbf;
-    color: #fdfdfd;
+    font-weight: 500;
+    color: #8d0606;
     text-align: center;
     padding: 1.5625rem 5rem;
 }
